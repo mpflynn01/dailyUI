@@ -1,0 +1,100 @@
+
+body {
+    width: 100%;
+    font-family: BurfordRusticOutline, Impact, sans-serif;
+    background-image: url(../img/photo-1441422454217-519d3ee81350.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+/*    height:600px;*/
+}
+
+header {
+    border-bottom: 1px white solid;
+}
+
+h1 {
+    color: white;
+    font-size: 3.2vw;
+    float: left;
+    margin: 10px 0px 10px 5px;
+    text-transform: uppercase;
+}
+
+header img {
+    float: left;
+    width: 7%;
+    margin-top:30px;
+}
+
+header img:hover {}
+
+li {
+    display: inline-block;
+    color: white;
+    font-size: 2vw;
+    margin: 25px 0px 5px 5px;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 70px;
+    font-size: 5vw;
+}
+
+h3 {
+    color: white;
+    margin: 10px 0;
+    font-size: 3vw;
+}
+
+div a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: white solid 1px;
+    padding: 10px 10px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+div a:hover {
+    border-radius: 50px;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+img:hover + .menu {
+    visibility: visible;
+}
+
+.footerDiv {
+    width:33%;
+    float:left;
+    padding-bottom:30px;
+}
+
+
+/*
+@media (max-width: 850px) {
+
+    }
+}
+*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
